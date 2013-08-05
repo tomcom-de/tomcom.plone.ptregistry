@@ -1,0 +1,16 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:meta="http://namespaces.zope.org/meta"
+    i18n_domain="tomcom.plone.ptregistry">
+
+    <meta:directives namespace="http://namespaces.plone.org/pt">
+
+        <meta:directive
+            name="registry"
+            schema=".meta.IPTDirective"
+            handler=".meta.register"
+            />
+
+    </meta:directives>
+
+</configure>
