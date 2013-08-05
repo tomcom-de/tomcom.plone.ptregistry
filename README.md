@@ -10,6 +10,7 @@ This package is for registering public global templates in an easy way.
 
 Minimum zcml config example
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
     Note::
 
         <configure xmlns="http://namespaces.zope.org/zope"
